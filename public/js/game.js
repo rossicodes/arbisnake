@@ -61,7 +61,7 @@ function create() {
   this.textInput.depth = 1;
   this.warningText = this.add.text(this.scale.width / 2, this.scale.height / 2 + 50, '', { fontSize: '20px', fill: '#FFFFFF' }).setScrollFactor(0).setOrigin(0.5);
   this.warningText.depth = 1;
-  this.titleText = this.add.text(this.scale.width / 2, this.scale.height / 2 - 100, 'Snek.io', { fontSize: '100px', fill: '#FFFFFF' }).setScrollFactor(0).setOrigin(0.5);
+  this.titleText = this.add.text(this.scale.width / 2, this.scale.height / 2 - 100, 'Arbi Snake', { fontSize: '100px', fill: '#FFFFFF' }).setScrollFactor(0).setOrigin(0.5);
   this.titleText.depth = 1;
   this.gameOverText = this.add.text(this.scale.width / 2, this.scale.height / 2, 'OOF Game Over', { fontSize: '100px', fill: '#FFFFFF' }).setScrollFactor(0).setOrigin(0.5).setVisible(false);
   this.gameOverText.depth = 1;
